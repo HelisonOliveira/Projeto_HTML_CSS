@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    height: 100px;
+    margin-top: 40px;
+    text-align: center;
+    background-image: linear-gradient(180deg,rgb(4, 4, 59),  rgb(15, 15, 16));
+    border-top: 3px solid tomato;
+    border: 1px solid red;
+    /**/
+}
+.rodape{
+    margin-top: 2%;
+    color: tomato;
+    letter-spacing: 3px;
+      
+}
+
+footer h3 {
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 0%;
+    font-size: 25px
+}
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0%;
+    font-size: 10px;
+}
+

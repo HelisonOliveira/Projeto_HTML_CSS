@@ -1,0 +1,79 @@
+@media screen and (max-width:1024px){
+
+    .header{
+        height: auto;
+    }
+    .header #text1{
+        letter-spacing: 10px;
+    }
+    .header #text2{
+        font-size: 2em;
+        letter-spacing: 10px;
+    }
+       
+    .card {
+        font-size: 0.67em;
+    }
+    }
+    @media screen and (max-width:768px){
+
+        .header #text1{
+            font-size: 0.7em;
+            letter-spacing: 6px;
+        }
+        .header #text2{
+            font-size: 1.5em;
+            letter-spacing: 8px;
+        }
+           
+        .card {
+            font-size: 0.52em;
+        }
+        .menu a{
+        
+            font-size: 1em;
+    }
+    @media screen and (max-width:768px){
+
+        .header #text1{
+            font-size: 0.7em;
+            letter-spacing: 6px;
+        }
+        .header #text2{
+            font-size: 1.5em;
+            letter-spacing: 8px;
+        }
+           
+        .card {
+            font-size: 0.52em;
+        }
+        .menu a{
+            display: block;
+            font-size: 0.6em;
+    }
+   /* .navbar{
+        position: relative;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .headline{
+        flex:100%;
+        margin:5%;
+        text-align: center;
+
+    }
+    .headline p{
+        text-align: center;
+    }
+    .headline img{
+        flex: 100%;
+        
+    }*/
+}

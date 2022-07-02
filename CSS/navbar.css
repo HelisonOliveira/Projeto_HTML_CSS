@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0%;
+
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    position: fixed;
+    background: white;
+    border: 1px solid red;
+    /**/
+}
+
+.logo{
+    flex: 20%;
+    text-align: left;
+    /*border: 1px solid red;*/
+}
+
+.logo h1{
+    font-family: 'EB Garamond', serif;
+    color: rgb(4, 4, 59);
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+.menu{
+    flex: 60%;
+    text-align: right;
+    /*border: 1px solid red;*/
+}
+
+.menu a{
+    color:rgb(4, 4, 59) ;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0px 15px;
+    /*border: 1px solid red;*/
+}
+
+.menu a:hover{
+    color: tomato;
+    border-top: 2px solid;
+}
+#botao{
+    background: rgb(4, 4, 59);
+    padding: 5px  12px;
+    color:white;
+    border-radius: 3px;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border-bottom: 2px solid rgb(4, 4, 59);
+    border-top: none;
+    background: tomato;
+    color: rgb(4, 4, 59);
+}
+

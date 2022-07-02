@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0%;
+    border:1px solid red;
+    /**/
+}
+
+.header{
+    display: flex;
+    flex-flow:  row wrap;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid red;
+    /*border:1px solid red;*/    
+}
+
+.headline{
+    flex-flow: row wrap;
+    height: 200px;
+    margin-top: 25%;
+    flex:40%;
+    /*border:1px solid red;*/
+}
+
+#text1{
+    font-size: 0.7em;
+    letter-spacing: 12px ;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(4, 4, 59)
+}
+
+#text2{
+    font-size: 2.3em;
+    letter-spacing: 12px;
+    flex: 40%;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(4, 4, 59);
+}
+
+#text3{
+    text-align: justify;
+    flex: 40%;
+    color: rgb(139, 137, 137);
+    font-size: small;
+    margin-top: 1%;
+    margin-right: 25px;
+    margin-bottom: 4%;
+}
+
+#botaohead{
+    background: tomato ;
+    padding: 10px  10px;
+    color:rgb(4, 4, 59);
+    font-weight: 700;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*border:1px solid red;*/
+}
+
+#botaohead:hover{
+    color: tomato;
+    background: rgb(4, 4, 59);;
+    cursor: pointer;
+}
+
+
+.imgline{
+    flex:40%;
+    margin-top: 15%;
+}
+
+
+
