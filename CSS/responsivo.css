@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px){
+    @media screen and (max-width:1024px){
 
     .header{
         height: auto;
@@ -33,6 +33,7 @@
         
             font-size: 1em;
     }
+}
     @media screen and (max-width:768px){
 
         .header #text1{
@@ -51,29 +52,4 @@
             display: block;
             font-size: 0.6em;
     }
-   /* .navbar{
-        position: relative;
-    }
-    
-    .menu {
-        display: none;
-    }
-
-    .logo{
-        margin: 0;
-        text-align: center;
-    }
-    .headline{
-        flex:100%;
-        margin:5%;
-        text-align: center;
-
-    }
-    .headline p{
-        text-align: center;
-    }
-    .headline img{
-        flex: 100%;
-        
-    }*/
 }

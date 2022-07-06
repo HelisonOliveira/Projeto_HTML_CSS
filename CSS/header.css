@@ -4,8 +4,8 @@
 }
 body{
     margin: 0%;
-    border:1px solid red;
-    /**/
+    
+    /*border:1px solid red;*/
 }
 
 .header{
@@ -14,7 +14,7 @@ body{
     height: 500px;
     margin-left: 10%;
     margin-right: 10%;
-    border: 1px solid red;
+
     /*border:1px solid red;*/    
 }
 
